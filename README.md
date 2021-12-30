@@ -54,3 +54,23 @@ The user can also choose where to put the file
 
 4. Flag -h which serves to display instructions
 its use.
+
+Output :
+
+```bash
+  Usage:
+    mytools <target-file>
+    mytools <path error.log> -t <format output>
+    mytools <path error.log> -o <path output>
+    mytools <path error.log> -t <format output> -o <path output>
+
+  Example:
+    mytools /var/log/nginx/error.log
+    mytools /var/log/nginx/error.log -t text
+    mytools /var/log/nginx/error.log -t json
+    mytools /var/log/nginx/error.log -o /User/johnmayer/Desktop/nginxlog.txt
+    mytools /var/log/nginx/error.log -t json -o /User/johnmayer/Desktop/nginxlog.json
+  
+  Help:
+    mytools -h or mytools --help
+```
