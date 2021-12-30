@@ -1,0 +1,32 @@
+{
+  "name": "mytools-cli",
+  "version": "1.0.0",
+  "description": "CLI to export error nginx log to other format file (*.json, *.txt)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "lintfix": "eslint . --fix"
+  },
+  "keywords": [
+    "nginx",
+    "exporter",
+    "log",
+    "error"
+  ],
+  "author": "Imam Syuhada",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.2.0",
+    "stdio": "^2.1.1"
+  },
+  "bin": {
+    "mytools": "index.js"
+  },
+  "volta": {
+    "node": "14.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0"
+  }
+}
