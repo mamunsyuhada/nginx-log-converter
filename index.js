@@ -12,6 +12,8 @@ const options = commandLineArgs([
 
 let { help, src, target, output } = options;
 
+help = src===undefined ? true : false;
+
 if(help){
 	console.log(`
   Usage:
@@ -33,6 +35,7 @@ if(help){
 	process.exit();
 }
 
+
 const formatFile = src.split('.')[src.split('.').length-1];
 if(!src || formatFile !== 'log'){
 	console.log('unknown path or file format must be *log');
@@ -42,12 +45,12 @@ if(!src || formatFile !== 'log'){
 if(target==='json'){
 	output = output.split('.');
 	output[output.length-1] = 'json';
-  output = output.join('.');
+	output = output.join('.');
 	jsonExporter(src, output);
 }else{
 	output = output.split('.');
 	output[output.length-1] = 'txt';
-  output = output.join('.');
+	output = output.join('.');
 	txtExporter(src, output);
 }
 

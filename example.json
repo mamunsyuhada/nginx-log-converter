@@ -1,0 +1,170 @@
+[
+  {
+    "date": "2021/12/30",
+    "time": "08:54:50",
+    "level": "crit",
+    "message": "failed (SSL: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "04:33:51",
+    "level": "crit",
+    "message": "failed (SSL: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol)"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "04:52:56",
+    "level": "crit",
+    "message": "failed (SSL: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol)"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "04:52:59",
+    "level": "crit",
+    "message": "failed (SSL: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "05:04:51",
+    "level": "crit",
+    "message": "failed (SSL: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol)"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "05:04:53",
+    "level": "crit",
+    "message": "failed (SSL: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "06:34:07",
+    "level": "crit",
+    "message": "failed (SSL: error:1420918C:SSL routines:tls_early_post_process_client_hello:version too"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "06:36:41",
+    "level": "crit",
+    "message": "failed (SSL: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol)"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "06:36:42",
+    "level": "crit",
+    "message": "failed (SSL: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "06:41:24",
+    "level": "crit",
+    "message": "failed (SSL: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol)"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "06:41:26",
+    "level": "crit",
+    "message": "failed (SSL: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "07:09:10",
+    "level": "crit",
+    "message": "failed (SSL: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol)"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "07:14:40",
+    "level": "crit",
+    "message": "failed (SSL: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol)"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "07:14:41",
+    "level": "crit",
+    "message": "failed (SSL: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "07:17:24",
+    "level": "crit",
+    "message": "failed (SSL: error:14209102:SSL routines:tls_early_post_process_client_hello:unsupported protocol)"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "07:17:27",
+    "level": "crit",
+    "message": "failed (SSL: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "06:26:23",
+    "level": "error",
+    "from_clinet": "18.237.150.180",
+    "to_domain": "service.lallo.co.id",
+    "url_path": "GET /favicon.ico HTTP/1.1\"",
+    "request_status": "failed"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "06:26:39",
+    "level": "error",
+    "from_clinet": "52.12.155.92",
+    "to_domain": "service.lallo.co.id",
+    "url_path": "GET /favicon.ico HTTP/1.1\"",
+    "request_status": "failed"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "07:33:24",
+    "level": "error",
+    "from_clinet": "185.136.167.62",
+    "to_domain": "service.lallo.co.id",
+    "url_path": "GET /.env HTTP/1.1\"",
+    "request_status": "failed"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "07:37:18",
+    "level": "error",
+    "from_clinet": "185.136.167.62",
+    "to_domain": "service.lallo.co.id",
+    "url_path": "GET /.env HTTP/1.1\"",
+    "request_status": "failed"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "08:17:13",
+    "level": "error",
+    "from_clinet": "195.54.160.149",
+    "to_domain": "service.lallo.co.id",
+    "url_path": "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1\"",
+    "request_status": "failed"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "08:21:15",
+    "level": "error",
+    "from_clinet": "184.168.96.248",
+    "to_domain": "service.lallo.co.id",
+    "url_path": "GET /wp-login.php HTTP/1.1\"",
+    "request_status": "failed"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "08:44:26",
+    "level": "error",
+    "from_clinet": "192.241.214.112",
+    "to_domain": "service.lallo.co.id",
+    "url_path": "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1\"",
+    "request_status": "failed"
+  },
+  {
+    "date": "2021/12/30",
+    "time": "08:55:12",
+    "level": "error",
+    "from_clinet": "192.241.214.112",
+    "to_domain": "service.lallo.co.id",
+    "url_path": "GET /owa/auth/logon.aspx?url=https%3a%2f%2f1%2fecp%2f HTTP/1.1\"",
+    "request_status": "failed"
+  }
+]
